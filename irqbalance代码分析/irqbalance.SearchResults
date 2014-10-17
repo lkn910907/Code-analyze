@@ -1,0 +1,9 @@
+---- cycle_count Æ¥Åä (8 ÔÚ 4 ÎÄ¼þ ) ----
+Irqbalance.c:unsigned long long cycle_count = 0;
+Irqbalance.c:	if (cycle_count)
+Irqbalance.c:			cycle_count = 0;
+Irqbalance.c:		if (cycle_count)	
+Irqbalance.c:		cycle_count++;
+Irqbalance.h:extern unsigned long long cycle_count;
+Irqlist.c:	if (power_thresh != ULONG_MAX && cycle_count > 5) {
+Procinterrupts.c:		if (cycle_count) {
